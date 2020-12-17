@@ -8,6 +8,8 @@ COMMITTER_FORMAT="%cn <%ce>"
 COMMITTER_NAME_FORMAT="%cn"
 COMMITTER_EMAIL_FORMAT="%ce"
 
+COMMIT_SUBJECT="%s"
+
 git_log_format() {
   pattern="$1"
   reference="$2"
@@ -21,4 +23,5 @@ git_log_format() {
   echo "GIT_COMMIT_COMMITTER=$(git_log_format "$COMMITTER_FORMAT" "HEAD")"
   echo "GIT_COMMIT_COMMITTER_NAME=$(git_log_format "$COMMITTER_NAME_FORMAT" "HEAD")"
   echo "GIT_COMMIT_COMMITTER_EMAIL=$(git_log_format "$COMMITTER_EMAIL_FORMAT" "HEAD")"
+  echo "GIT_COMMIT_MESSAGE=$(git_log_format "$COMMIT_SUBJECT" "HEAD")"
 } >>"$GITHUB_ENV"
