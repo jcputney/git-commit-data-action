@@ -12,7 +12,7 @@ This action expose git commit data.
 - **GIT_COMMIT_COMMITTER** expose `Committer Name <committer@email.tld>`
 - **GIT_COMMIT_COMMITTER_NAME** expose `Committer Name`
 - **GIT_COMMIT_COMMITTER_EMAIL** expose `committer@email.tld`
-= **GIT_COMMIT_MESSAGE** expose `Commit Message`
+- **GIT_COMMIT_MESSAGE** expose `Commit Message`
 
 ## Exposed environment variables
 
