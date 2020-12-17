@@ -18,7 +18,7 @@ This action expose git commit data.
 
 ```yaml
 - name: Expose git commit data
-  uses: rlespinasse/git-commit-data-action@v1.x
+  uses: jcputney/git-commit-data-action@v1
 
 - name: Print git commit data
   run: |
