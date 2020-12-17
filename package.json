@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/rlespinasse/git-commit-data-action.git"
+    "url": "http://github.com/jcputney/git-commit-data-action.git"
   },
   "devDependencies": {
     "@semantic-release/changelog": "5.0.1",
