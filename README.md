@@ -18,7 +18,7 @@ This action expose git commit data.
 
 ```yaml
 - name: Expose git commit data
-  uses: jcputney/git-commit-data-action@v1.x
+  uses: jcputney/git-commit-data-action@v2
 
 - name: Print git commit data
   run: |
@@ -39,4 +39,4 @@ This action expose git commit data.
 [3]: https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-git-master.endbug.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Djcputney%2Fgit-commit-data-action%26badge%3Dtrue
 [4]: https://github.com/search?o=desc&q=jcputney/git-commit-data-action+path%3A.github%2Fworkflows+language%3AYAML&s=&type=Code
 [5]: https://img.shields.io/github/license/jcputney/git-commit-data-action
-[6]: https://github.com/jcputney/git-commit-data-action/blob/v1.x/LICENSE
+[6]: https://github.com/jcputney/git-commit-data-action/blob/v2/LICENSE

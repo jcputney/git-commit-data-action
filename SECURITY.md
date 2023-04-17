@@ -4,13 +4,13 @@
 
 | Version | Branch | Supported          |
 |---------|--------|--------------------|
-| 1.x     | v1.x   | :white_check_mark: |
+| 2.x     | v2     | :white_check_mark: |
 
 A GitHub repository can used one of the available branches as action inside its workflows.
 
 ## Reporting a Vulnerability
 
-You can report a Vulnerability by [my email](mailto:romain.lespinasse@gmail.com).
+You can report a Vulnerability by [my email](mailto:jputney@noverant.com).
 
 _Vulnerability stages :_
 
