@@ -2,7 +2,7 @@
 name: "Git Commit Data w/ Message"
 description: "Action to expose git commit data"
 runs:
-  using: "node12"
+  using: "node16"
   main: "entrypoint.js"
 branding:
   icon: "settings"
